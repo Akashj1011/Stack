@@ -4,8 +4,8 @@
 Go inside Dockerfile directory.
 Run below two commands:
 
-docker build --tag=stack:latest . 
-docker run -p8887:8080 stack:latest
+1. docker build --tag=stack:latest . 
+2. docker run -p8887:8080 stack:latest
 
 - It will run the application on port: 8887 of localhost.
 
